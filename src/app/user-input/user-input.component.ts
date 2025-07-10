@@ -12,7 +12,6 @@ import { ButtonComponent } from "../button/button.component";
   styleUrl: './user-input.component.css'
 })
 export class UserInputComponent {
-  @Input() invetsment:string="";
   @Output() calculate=new EventEmitter<any>();
   initialInvestment='0';
   annualInvestment='0';

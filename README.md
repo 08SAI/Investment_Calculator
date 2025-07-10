@@ -1,27 +1,64 @@
-# EssentialsPractice
+# Investment Calculator
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.0-next.2.
+A simple web app built with Angular and TypeScript that helps users estimate the future value of their investments. Enter your savings, contributions, interest rate, and duration to see a clear, year-by-year breakdown of projected growth.
 
-## Development server
+## Features
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- User-friendly input for investment parameters
+- Real-time calculation of investment growth
+- Yearly breakdown of savings, interest, and contributions
+- Responsive design
 
-## Code scaffolding
+## Tech Stack
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Angular
+- TypeScript
+- HTML & CSS
 
-## Build
+## Getting Started
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### Prerequisites
+- [Node.js](https://nodejs.org/) (v14 or higher recommended)
+- [Angular CLI](https://angular.io/cli)
 
-## Running unit tests
+### Installation
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/your-username/investment-calculator.git
+    cd investment-calculator
+    ```
+2. Install dependencies:
+    ```bash
+    npm install
+    ```
+3. Run the development server:
+    ```bash
+    ng serve
+    ```
+    Open [http://localhost:4200](http://localhost:4200) to view it in your browser.
 
-## Running end-to-end tests
+## Git Commands for Others
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+To initialize a new git repository and push your code to GitHub:
 
-## Further help
+```bash
+# Initialize git (if not already initialized)
+git init
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+# Add all files to staging
+git add .
+
+# Commit your changes
+git commit -m "Initial commit"
+
+# Add your remote repository (replace with your actual repo URL)
+git remote add origin https://github.com/your-username/investment-calculator.git
+
+# Push to GitHub
+git push -u origin master
+```
+
+## License
+
+This project is licensed under the MIT License.

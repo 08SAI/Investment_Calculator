@@ -1,0 +1,18 @@
+.click{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    button{
+    /* background-color: #050705; Green */
+    border: none;
+    color: black;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+}
