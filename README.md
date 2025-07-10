@@ -1,64 +1,44 @@
-# Investment Calculator
+💰 Investment Calculator
+A simple web app built with Angular and TypeScript that helps users estimate the future value of their investments. Enter your savings, contributions, interest rate, and duration to see a clear, year-by-year breakdown of projected growth. 📈
 
-A simple web app built with Angular and TypeScript that helps users estimate the future value of their investments. Enter your savings, contributions, interest rate, and duration to see a clear, year-by-year breakdown of projected growth.
+✨ Features
 
-## Features
+🧾 User-friendly input for investment parameters
 
-- User-friendly input for investment parameters
-- Real-time calculation of investment growth
-- Yearly breakdown of savings, interest, and contributions
-- Responsive design
+⚙️ Real-time calculation of investment growth
 
-## Tech Stack
+📊 Yearly breakdown of savings, interest, and contributions
 
-- Angular
-- TypeScript
-- HTML & CSS
+📱 Responsive design for desktop and mobile devices
 
-## Getting Started
+🛠 Tech Stack
 
-### Prerequisites
-- [Node.js](https://nodejs.org/) (v14 or higher recommended)
-- [Angular CLI](https://angular.io/cli)
+🅰️ Angular
 
-### Installation
+📘 TypeScript
 
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/your-username/investment-calculator.git
-    cd investment-calculator
-    ```
-2. Install dependencies:
-    ```bash
-    npm install
-    ```
-3. Run the development server:
-    ```bash
-    ng serve
-    ```
-    Open [http://localhost:4200](http://localhost:4200) to view it in your browser.
+🖼 HTML & 🎨 CSS
 
-## Git Commands for Others
+📥 Installation
 
-To initialize a new git repository and push your code to GitHub:
+Clone the repository:
 
-```bash
-# Initialize git (if not already initialized)
-git init
+bash
 
-# Add all files to staging
-git add .
+git clone https://github.com/your-username/investment-calculator.git
 
-# Commit your changes
-git commit -m "Initial commit"
+cd investment-calculator
 
-# Add your remote repository (replace with your actual repo URL)
-git remote add origin https://github.com/your-username/investment-calculator.git
+Install dependencies:
 
-# Push to GitHub
-git push -u origin master
-```
+bash
 
-## License
+npm install
 
-This project is licensed under the MIT License.
+Run the development server:
+
+bash
+
+ng serve
+
+🔗 Open http://localhost:4200 in your browser.
